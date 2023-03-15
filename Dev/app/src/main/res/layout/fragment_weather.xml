@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:visibility="visible"
+    tools:context="com.example.dev.ProfileActivity"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/TopBar"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_gravity="top"
+        android:background="@color/blue"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:background="@color/blue"
+            android:src="@drawable/default_profile"
+            app:shapeAppearanceOverlay="@style/Circular" />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/currentWeatherTableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|fill_vertical"
+        android:layout_marginTop="64dp">
+
+        <TableRow
+            android:id="@+id/todaysWeatherRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/todaysWeatherLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Weather"
+                android:textSize="34sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/currentWeatherRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currentWeatherLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather:"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/currentWeatherClear"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/ic_clear" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/currentTemperatureRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currentTemperatureLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Temperature:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/currentTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="55°-80° F"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/currentHumidityRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currentHumidityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humidity:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/currentHumidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="1"
+                android:text="35%"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/currentWindSpeedRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/currentWindSpeedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Speed:"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/currentWindSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="20 mph"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BottomNavBar"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:background="#3345E8"
+    tools:context=".NavBar">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_house" />
+
+        <ImageView
+            android:id="@+id/mountainsIcon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="auto"
+            android:src="@drawable/ic_mountains"
+            android:translationX="90dp" />
+
+        <ImageView
+            android:id="@+id/pencilIcon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_pencil" />
+
+        <ImageView
+            android:id="@+id/cloudsIcon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="auto"
+            android:onClick="onClick"
+            android:src="@drawable/ic_cloud_sun"
+            android:translationX="270dp" />
+
+        <ImageView
+            android:id="@+id/weightsIcon"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:src="@drawable/ic_barbell" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</FrameLayout>

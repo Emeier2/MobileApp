@@ -1,0 +1,91 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-dev-194210-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-dev-194210-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-dev-194210-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dev-dev-194210-deployment",
+      "UnauthRoleName": "amplify-dev-dev-194210-unauthRole",
+      "StackName": "amplify-dev-dev-194210",
+      "StackId": "arn:aws:cloudformation:us-east-1:404401639927:stack/amplify-dev-dev-194210/c27da790-c826-11ec-9575-12ca5a2b5ba5",
+      "AmplifyAppId": "dfibxdcq6qox2"
+    }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-develop-200326-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-develop-200326-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-develop-200326-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dev-develop-200326-deployment",
+      "UnauthRoleName": "amplify-dev-develop-200326-unauthRole",
+      "StackName": "amplify-dev-develop-200326",
+      "StackId": "arn:aws:cloudformation:us-east-1:404401639927:stack/amplify-dev-develop-200326/ba033730-c829-11ec-b484-0edf0f13277b",
+      "AmplifyAppId": "dfibxdcq6qox2"
+    }
+  },
+  "ethan": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-ethan-215348-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-ethan-215348-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-ethan-215348-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dev-ethan-215348-deployment",
+      "UnauthRoleName": "amplify-dev-ethan-215348-unauthRole",
+      "StackName": "amplify-dev-ethan-215348",
+      "StackId": "arn:aws:cloudformation:us-east-2:404401639927:stack/amplify-dev-ethan-215348/25ef65e0-c839-11ec-a75e-02eb6f97fa06",
+      "AmplifyAppId": "d39irm6tj1b2pd"
+    }
+  },
+  "ethansdev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-ethansdev-215738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-ethansdev-215738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-ethansdev-215738-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dev-ethansdev-215738-deployment",
+      "UnauthRoleName": "amplify-dev-ethansdev-215738-unauthRole",
+      "StackName": "amplify-dev-ethansdev-215738",
+      "StackId": "arn:aws:cloudformation:us-east-2:404401639927:stack/amplify-dev-ethansdev-215738/ae7f1d60-c839-11ec-a49f-065070b16c74",
+      "AmplifyAppId": "d39irm6tj1b2pd"
+    }
+  },
+  "devl": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-devl-220353-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-devl-220353-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-devl-220353-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dev-devl-220353-deployment",
+      "UnauthRoleName": "amplify-dev-devl-220353-unauthRole",
+      "StackName": "amplify-dev-devl-220353",
+      "StackId": "arn:aws:cloudformation:us-east-2:404401639927:stack/amplify-dev-devl-220353/8fa7a5f0-c83a-11ec-a601-0acba10fac34",
+      "AmplifyAppId": "d39irm6tj1b2pd"
+    },
+    "categories": {
+      "auth": {
+        "devd1d512c3": {},
+        "true": {}
+      }
+    }
+  },
+  "admx": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dev-admx-155652-authRole",
+      "UnauthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-admx-155652-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::404401639927:role/amplify-dev-admx-155652-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dev-admx-155652-deployment",
+      "UnauthRoleName": "amplify-dev-admx-155652-unauthRole",
+      "StackName": "amplify-dev-admx-155652",
+      "StackId": "arn:aws:cloudformation:us-east-1:404401639927:stack/amplify-dev-admx-155652/727e5f00-c8d0-11ec-a518-0a34574455e9",
+      "AmplifyAppId": "dfibxdcq6qox2"
+    },
+    "categories": {
+      "auth": {
+        "devd1d512c3": {}
+      }
+    }
+  }
+}
